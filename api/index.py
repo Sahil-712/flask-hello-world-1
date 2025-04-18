@@ -22,6 +22,4 @@ def square():
     except ValueError:
         return {'error': 'Invalid number'}, 400
 
-# vercel entry point
-def handler(environ, start_response):
-    return app(environ, start_response)
+
